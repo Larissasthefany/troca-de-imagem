@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'anime';
+    src: url(Supersonic\ Rocketship.ttf);
+}
+
+ body{
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: rgba(217, 210, 210, 0.487);
+}
+
+ h1{
+    font-family: 'anime';
+    color: #000;
+    text-align: center;
+    font-weight: bolder;
+    text-transform:uppercase ;
+    font-size: 5rem;
+    margin-top: -150px;
+    z-index: 2;
+}
+
+/* img{
+    width: 100%;
+    height: 100%;
+} */
+
+
+div.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 90vh;
+    text-align: center;
+}
+
+button{
+    border-radius: 25px 0 25px 0;
+    /* border-radius: 20px; */
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    font-size: 1.1em;
+    background-color: rgba(0, 0, 0, 0.547);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-transform:uppercase ;
+}
+
+button:hover{
+    background-color: darkgrey;
+} 
